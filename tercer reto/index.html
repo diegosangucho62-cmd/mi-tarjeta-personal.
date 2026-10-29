@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #1a1a2e; 
+            font-family: 'segoe UI', Verdana, Geneva, Tahoma, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .tarjeta-perfil {
+            background-color: #161625;
+            border: 1px solid #2b2b40;
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            max-width: 320px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            color: white; 
+        }
+        img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            border: 3px solid #00f2fe; 
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        h2 {
+            margin: 10px 0 5px 0;
+            font-size: 24px;
+        }
+        .profesion {
+            color: #00f2fe;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+        .bio {
+            color: #9494b8;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+        .enlaces-redes {
+            display: flex;
+            gap: 10px;
+        }
+        .enlace-red {
+            flex: 1;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+            background-color: #24292e;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .enlace-red:hover {
+            opacity: 0.8;
+        }
+        .instagram {
+            background-color: #e1306c;
+        }
+    </style>
+</head>
+<body>
+    <div class="tarjeta-perfil">
+        <img src="mi foto.jpg.jpeg" alt="foto mia">
+
+        <h2>Diego Sangucho</h2>
+        <p class="profesion">Futuro Desarrolador web</p>
+        <p class="bio">Estudiante en el Instituto Superior Universitario Japon. Apasionado por la tecnología, el gimnasio y la programacion.</p>
+
+        <div class="enlaces-redes"> 
+            <a href="https://github.com" target="-black" class="enlace-red">Mi GitHub</a>
+            <a href="https://www.instagram.com/dmshostin?cplk=M3M4MTl3ZG5wZWNq" target="_blank" class="enlace-red instagram">Mi Instagram</a>
+        </div>
+    </div>
+</body>
+</html>
